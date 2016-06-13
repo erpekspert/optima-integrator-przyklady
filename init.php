@@ -17,7 +17,8 @@ $location = "http://192.168.231.15/soap.php";
 
 $endpoint = array(
 	"location" => $location,
-	"uri"      => "http://erpekspert.optima/"
+	"uri"      => "http://erpekspert.optima/",
+	"encoding" => "UTF-8"
 );
 
 ini_set("soap.wsdl_cache_enabled", "0");
